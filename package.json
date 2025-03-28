@@ -1,0 +1,20 @@
+{
+    "name": "discord-gmgn-chat-bot",
+    "version": "1.0.0",
+    "description": "Discord-GMGN-Chat-Bot is a Node.js bot that uses the discord-simple-api package to send \"Good Morning\" and \"Good Night\" messages to specified Discord channels at 08:00 UTC and 20:00 UTC respectively.",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "colors": "^1.4.0",
+      "cron": "^3.1.7",
+      "discord-simple-api": "^1.0.6",
+      "dotenv": "^16.4.7",
+      "fs": "^0.0.1-security",
+      "openai": "^4.80.1"
+    }
+  }
